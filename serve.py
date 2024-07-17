@@ -93,8 +93,8 @@ if serve1:glasscup = st.slider(
     "玻璃杯",
     0,
     100,
-    value=20,
-    step=5,
+        value=20,
+        step=5,
     key="glasscup",
 )
 else :glasscup=0
