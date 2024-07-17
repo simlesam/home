@@ -92,7 +92,9 @@ serve1=st.checkbox('玻璃杯',value=False,key="serve1")
 if serve1:glasscup = st.slider(
     "玻璃杯",
     0,
-    100,value=20,step=5,
+    100,
+        20,
+        5,
     key="glasscup",
 )
 else :glasscup=0
