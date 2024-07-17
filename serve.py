@@ -93,6 +93,8 @@ if serve1:glasscup = st.slider(
     "玻璃杯",
     0,
     100,
+    value=20,
+    step=5,
     key="glasscup",
 )
 else :glasscup=0
@@ -102,6 +104,7 @@ if serve2:table = st.slider(
     "滑輪桌",
     0,
     8,
+    value=4,
     key="table",
 )
 else :table=0
@@ -111,6 +114,7 @@ if serve3:chair = st.slider(
     "活動椅(有椅背)",
     0,
     40,
+    value=20,
     key="chair",
 )
 else :chair=0
@@ -120,6 +124,7 @@ if serve4:seapaper = st.slider(
     "海報架",
     0,
     6,
+    value=3,
     key="seapaper",
 )
 else :seapaper=0
